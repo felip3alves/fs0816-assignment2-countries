@@ -16,14 +16,9 @@ module.exports = {
       var startIndex = setting.index * setting.pageSize;
       return Countries.slice(startIndex, setting.pageSize);
 
-
-
-
-
-
-      if(setting.pageSize === 100) {
+      setting.index === 1;
       return Countries.slice(startIndex, setting.pageSize);
-      };
+
 
 
 
